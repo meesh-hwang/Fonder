@@ -1,7 +1,7 @@
 {
   "files": {
-    "app.js": "/fonderapp/static/js/app.1f79fe44.chunk.js",
-    "app.js.map": "/fonderapp/static/js/app.1f79fe44.chunk.js.map",
+    "app.js": "/fonderapp/static/js/app.0991c907.chunk.js",
+    "app.js.map": "/fonderapp/static/js/app.0991c907.chunk.js.map",
     "runtime~app.js": "/fonderapp/static/js/runtime~app.f76556da.js",
     "runtime~app.js.map": "/fonderapp/static/js/runtime~app.f76556da.js.map",
     "static/js/2.d842cf08.chunk.js": "/fonderapp/static/js/2.d842cf08.chunk.js",
@@ -17,6 +17,6 @@
   "entrypoints": [
     "static/js/runtime~app.f76556da.js",
     "static/js/2.d842cf08.chunk.js",
-    "static/js/app.1f79fe44.chunk.js"
+    "static/js/app.0991c907.chunk.js"
   ]
 }
