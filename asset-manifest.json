@@ -1,22 +1,22 @@
 {
   "files": {
-    "app.js": "/fonderapp/static/js/app.8ba9f5ae.chunk.js",
-    "app.js.map": "/fonderapp/static/js/app.8ba9f5ae.chunk.js.map",
+    "app.js": "/fonderapp/static/js/app.dccd4d85.chunk.js",
+    "app.js.map": "/fonderapp/static/js/app.dccd4d85.chunk.js.map",
     "runtime~app.js": "/fonderapp/static/js/runtime~app.f76556da.js",
     "runtime~app.js.map": "/fonderapp/static/js/runtime~app.f76556da.js.map",
-    "static/js/2.ca137cda.chunk.js": "/fonderapp/static/js/2.ca137cda.chunk.js",
-    "static/js/2.ca137cda.chunk.js.map": "/fonderapp/static/js/2.ca137cda.chunk.js.map",
+    "static/js/2.f3267629.chunk.js": "/fonderapp/static/js/2.f3267629.chunk.js",
+    "static/js/2.f3267629.chunk.js.map": "/fonderapp/static/js/2.f3267629.chunk.js.map",
     "favicon-16.png": "/fonderapp/favicon-16.png",
     "favicon-32.png": "/fonderapp/favicon-32.png",
     "favicon.ico": "/fonderapp/favicon.ico",
     "index.html": "/fonderapp/index.html",
     "manifest.json": "/fonderapp/manifest.json",
     "serve.json": "/fonderapp/serve.json",
-    "static/js/2.ca137cda.chunk.js.LICENSE.txt": "/fonderapp/static/js/2.ca137cda.chunk.js.LICENSE.txt"
+    "static/js/2.f3267629.chunk.js.LICENSE.txt": "/fonderapp/static/js/2.f3267629.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime~app.f76556da.js",
-    "static/js/2.ca137cda.chunk.js",
-    "static/js/app.8ba9f5ae.chunk.js"
+    "static/js/2.f3267629.chunk.js",
+    "static/js/app.dccd4d85.chunk.js"
   ]
 }
