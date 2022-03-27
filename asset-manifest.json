@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/fonderapp/static/js/app.777a8bac.chunk.js",
-    "app.js.map": "/fonderapp/static/js/app.777a8bac.chunk.js.map",
+    "app.js": "/fonderapp/static/js/app.53b50997.chunk.js",
+    "app.js.map": "/fonderapp/static/js/app.53b50997.chunk.js.map",
     "runtime~app.js": "/fonderapp/static/js/runtime~app.f76556da.js",
     "runtime~app.js.map": "/fonderapp/static/js/runtime~app.f76556da.js.map",
-    "static/js/2.e61fd33e.chunk.js": "/fonderapp/static/js/2.e61fd33e.chunk.js",
-    "static/js/2.e61fd33e.chunk.js.map": "/fonderapp/static/js/2.e61fd33e.chunk.js.map",
+    "static/js/2.1ec4344d.chunk.js": "/fonderapp/static/js/2.1ec4344d.chunk.js",
+    "static/js/2.1ec4344d.chunk.js.map": "/fonderapp/static/js/2.1ec4344d.chunk.js.map",
     "fonts/MaterialCommunityIcons.ttf": "/fonderapp/./fonts/MaterialCommunityIcons.ttf",
     "favicon-16.png": "/fonderapp/favicon-16.png",
     "favicon-32.png": "/fonderapp/favicon-32.png",
@@ -13,7 +13,7 @@
     "index.html": "/fonderapp/index.html",
     "manifest.json": "/fonderapp/manifest.json",
     "serve.json": "/fonderapp/serve.json",
-    "static/js/2.e61fd33e.chunk.js.LICENSE.txt": "/fonderapp/static/js/2.e61fd33e.chunk.js.LICENSE.txt",
+    "static/js/2.1ec4344d.chunk.js.LICENSE.txt": "/fonderapp/static/js/2.1ec4344d.chunk.js.LICENSE.txt",
     "static/media/Door.png": "/fonderapp/static/media/Door.3982d2de.png",
     "static/media/Swipe.png": "/fonderapp/static/media/Swipe.3024e2e7.png",
     "static/media/Table.png": "/fonderapp/static/media/Table.8e832e68.png",
@@ -33,7 +33,7 @@
   },
   "entrypoints": [
     "static/js/runtime~app.f76556da.js",
-    "static/js/2.e61fd33e.chunk.js",
-    "static/js/app.777a8bac.chunk.js"
+    "static/js/2.1ec4344d.chunk.js",
+    "static/js/app.53b50997.chunk.js"
   ]
 }
