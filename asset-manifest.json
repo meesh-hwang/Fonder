@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/static/js/app.849eb0cf.chunk.js",
-    "app.js.map": "/static/js/app.849eb0cf.chunk.js.map",
+    "app.js": "/static/js/app.69b0848c.chunk.js",
+    "app.js.map": "/static/js/app.69b0848c.chunk.js.map",
     "runtime~app.js": "/static/js/runtime~app.2e9f1821.js",
     "runtime~app.js.map": "/static/js/runtime~app.2e9f1821.js.map",
-    "static/js/2.296286dc.chunk.js": "/static/js/2.296286dc.chunk.js",
-    "static/js/2.296286dc.chunk.js.map": "/static/js/2.296286dc.chunk.js.map",
+    "static/js/2.9ac4074e.chunk.js": "/static/js/2.9ac4074e.chunk.js",
+    "static/js/2.9ac4074e.chunk.js.map": "/static/js/2.9ac4074e.chunk.js.map",
     "fonts/MaterialCommunityIcons.ttf": "/./fonts/MaterialCommunityIcons.ttf",
     "favicon-16.png": "/favicon-16.png",
     "favicon-32.png": "/favicon-32.png",
@@ -13,7 +13,7 @@
     "index.html": "/index.html",
     "manifest.json": "/manifest.json",
     "serve.json": "/serve.json",
-    "static/js/2.296286dc.chunk.js.LICENSE.txt": "/static/js/2.296286dc.chunk.js.LICENSE.txt",
+    "static/js/2.9ac4074e.chunk.js.LICENSE.txt": "/static/js/2.9ac4074e.chunk.js.LICENSE.txt",
     "static/media/Door.png": "/static/media/Door.986d742b.png",
     "static/media/Swipe.png": "/static/media/Swipe.c280761c.png",
     "static/media/Table.png": "/static/media/Table.af2ba5ee.png",
@@ -34,7 +34,7 @@
   },
   "entrypoints": [
     "static/js/runtime~app.2e9f1821.js",
-    "static/js/2.296286dc.chunk.js",
-    "static/js/app.849eb0cf.chunk.js"
+    "static/js/2.9ac4074e.chunk.js",
+    "static/js/app.69b0848c.chunk.js"
   ]
 }
