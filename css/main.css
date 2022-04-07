@@ -128,7 +128,6 @@ p{
     font-weight: bold;
 }
 
-/* */
 .mobileApp{
     flex-basis: 25%;
     display: flex;
@@ -247,7 +246,7 @@ div.mobileDownloadApp.mobile img{
     max-width: 30vw;
 }
 .gb-nav.laptop li:nth-child(1) {
-    margin-right:20px;
+    margin-right:40px;
 }
 
 .gb-nav.laptop li .nav-link.laptop{
@@ -256,6 +255,12 @@ div.mobileDownloadApp.mobile img{
     font-weight: 600;
     font-size: 20px;
     color: #FFD88F;
+}
+.gb-nav.laptop li .nav-link.laptop.active{
+    font-family: 'Assistant';
+    font-weight: 400;
+    font-size: 23px;
+    text-decoration: underline;
 }
 
 /*header desktop*/
@@ -282,7 +287,7 @@ div.mobileDownloadApp.mobile img{
 }
 
 .gb-nav.desktop li:nth-child(1) {
-    margin-right:35px;
+    margin-right:45px;
 }
 
 .gb-nav.desktop ul {
@@ -297,6 +302,12 @@ div.mobileDownloadApp.mobile img{
     font-family: 'Poppins';
     font-size: 20px;
     color: #FFD88F;
+}
+.gb-nav.desktop li .nav-link.desktop.active{
+    font-family: 'Assistant';
+    font-size: 23px;
+    text-decoration: underline;
+    font-weight: 500;
 }
 
 
@@ -596,6 +607,7 @@ div.mobileDownloadApp.mobile img{
 }
 .features p {
     font-size: 12px;
+    line-height: 1.3;
 }
 .features img{
     width: 40%;
@@ -1217,29 +1229,30 @@ div.mobileDownloadApp.mobile img{
 }
 
 .review-box {
-    min-width: 80vw;
-    max-width: 80vw;
-    display:'flex';
-    flex-direction: 'column';
+    width: 80vw;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin:20px 12px; 
-    padding: 5px 20px 0px 20px;
+    margin: 20px 12px; 
     box-shadow: 2px 2px 3px 2px rgba(235, 235, 235, 0.9);
     border-radius: 11px;
 }
 .review-wrapper{
-    margin-top:30px;
     display: flex;
     flex-direction:column;
     flex:1;
     align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
 }
 p.review {
     font-family: 'Oranienbaum';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height:17px;
+    line-height:1.3;
 }
 .reviewer .goldfish {
     max-width: 20px;
@@ -1257,8 +1270,6 @@ p.review {
     display: flex;
     align-items: center;
     align-self: flex-end;
-    padding-top:30px;
-    padding-bottom:20px;
 }
 
 /* Reviews mobile */
@@ -1272,14 +1283,12 @@ p.review {
     font-size: 30px;
 }
 .mobile .review-box {
-    min-width: 60vw;
-    max-width: 60vw;
+    width: 60vw;
     margin:20px 12px 10vh 12px; 
-    padding: 10px 30px 0px 30px;
 }
 .mobile p.review {
     font-size: 16px;
-    line-height:20px;
+    line-height:1.3;
 }
 .mobile .reviewer .goldfish {
     max-width: 35px;
@@ -1290,8 +1299,8 @@ p.review {
     font-size:14px;
 }
 .mobile .reviewer {
-    padding-top:35px;
-    padding-bottom:20px;
+    /* padding-top:35px;
+    padding-bottom:20px; */
 }
 
 /* Reviews mobile */
@@ -1306,14 +1315,13 @@ p.review {
     margin-bottom:30px;
 }
 .tablet .review-box {
-    min-width: 50vw;
-    max-width: 50vw;
+    width: 50vw;
     margin:20px 25px 13vh 25px; 
-    padding: 15px 35px 0px 35px;
+    /* padding: 15px 35px 0px 35px; */
 }
 .tablet p.review {
     font-size: 18px;
-    line-height:23px;
+    line-height:1.3;
 }
 .tablet .reviewer .goldfish {
     max-width: 45px;
@@ -1324,8 +1332,8 @@ p.review {
     font-size:14px;
 }
 .tablet .reviewer {
-    padding-top:40px;
-    padding-bottom:20px;
+    /* padding-top:40px;
+    padding-bottom:20px; */
 }
 
 /* Reviews laptop */
@@ -1344,17 +1352,15 @@ p.review {
 }
 .reviews.laptop h3, .partners.laptop h3{
     font-size: 38px;
-    margin-bottom:30vh;
 }
 .laptop .review-box {
     margin:30px 15px 13vh 15px; 
-    min-width: 28vw;
-    max-width: 28vw;
-    padding: 15px 20px 0px 25px;
+    width: 28vw;
+    height: 250px;
 }
 .laptop p.review {
     font-size: 17px;
-    line-height:23px;
+    line-height:1.3;
 }
 .laptop .reviewer .goldfish {
     max-width: 45px;
@@ -1365,8 +1371,8 @@ p.review {
     font-size:12px;
 }
 .laptop .reviewer {
-    padding-top:40px;
-    padding-bottom:20px;
+    /* padding-top:40px;
+    padding-bottom:20px; */
 }
 /* Reviews desktop */
 .reviews.desktop {
@@ -1375,7 +1381,9 @@ p.review {
 .reviews.desktop .row {
     display:flex;
     justify-content:space-between;
-    max-width: 80vw;
+    width: 80vw;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .reviews.desktop h3:after, .partners.desktop h3:after {
     bottom: -10px;
@@ -1388,13 +1396,13 @@ p.review {
 }
 .desktop .review-box {
     margin:20px 15px 13vh 15px; 
-    min-width: 23vw;
-    max-width: 23vw;
-    padding: 10px 25px 0px 25px;
+    width: 25vw;
+    /* max-width: 350px; */
+    height: 275px;
 }
 .desktop p.review {
     font-size: 20px;
-    line-height:25px;
+    line-height:1.3;
 }
 .desktop .reviewer .goldfish {
     max-width: 50px;
@@ -1404,10 +1412,10 @@ p.review {
 .desktop .reviewer p {
     font-size:14px;
 }
-.desktop .reviewer {
+/* .desktop .reviewer {
     padding-top:40px;
     padding-bottom:20px;
-}
+} */
 
 
 /* Small Devices */
@@ -1512,22 +1520,17 @@ p.review {
     border-radius: 20px;
     background-image: linear-gradient(0deg, rgba(255,246,229,1) 0%, rgba(230,98,85,1) 100%);
     margin-bottom: 50px;
-    padding: 8px 12px;
+    padding: 10px 18px;
     color: white;
     border: none;
     font-weight: bold;
 }
-
+.entry-form .submit-btn:hover{
+    background: #FFD88F;
+}
 .submission-form.tablet button {
     padding: 10px 14px;
     font-size: 1.2em;
-}
-
-.submission-form.laptop button, .submission-form.desktop button {
-    padding: 12px 16px;
-    font-size: 1.4em;
-    border-radius: 50px;
-
 }
 
 .entry-form div h4 {
@@ -1545,7 +1548,7 @@ flex-direction: column;
 justify-content: center;
 }
 
-.entry-form div textarea[type=text], select {
+.entry-form div textarea, select {
     width: 100%;
     padding: 6px 10px;
     margin: 5px 0;
@@ -1553,6 +1556,8 @@ justify-content: center;
     border: 1px solid black;
     border-radius: 2px;
     box-sizing: border-box;
+    font-family: 'Assistant', sans-serif;
+    font-size: 12px;
   }
 .entry-form input[type="file"] {
     display: none;
@@ -1572,7 +1577,15 @@ justify-content: center;
     height: 50%;
     margin-left: 5px;
 }
-
+.desktop .entry-form div textarea, select{
+    font-size: 14px;
+}
+.desktop .entry-form div h4{
+    font-size: 16px;
+}
+.submission-form.desktop .entry-form{
+    padding: 20px 0;
+}
 .submission-heading.mobile, .submission-heading.tablet {
     font-size: 20px;
 }
@@ -1605,7 +1618,7 @@ form input::placeholder{
 }
 
 .submission-form .entry-form{
-    padding: 20px 5vw;
+    padding: 20px 5vw 0;
 }
 .submission-form .agree-box {
     justify-content: flex-start;

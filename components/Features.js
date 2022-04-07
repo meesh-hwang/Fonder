@@ -34,14 +34,14 @@ const Features = () => {
                     <div className='item'>
                         <h4>Swipe for Food</h4>
                         <div className="row">
-                            <img className="left-col" src={swipeImage} />
+                            <img alt="Swipe Image" className="left-col" src={swipeImage} />
                             <p className="right-col">Discover your current cravings with Fonder. Swipe right to add dishes to your favourite list. Swipe left to move on to the next dish. </p>
                         </div>
                     </div>
                     <div className='item'>
                         <h4>Reserve a Table</h4>
                         <div className="row">
-                            <img className="left-col" src={reserveTableImage} />
+                            <img alt="Reserve Image" className="left-col" src={reserveTableImage} />
                             <p className="right-col">Do you want to visit the restaurant? We are partnered with OpenTable. Make a quick reservation on the same day.
                             </p>
                         </div>
@@ -49,7 +49,7 @@ const Features = () => {
                     <div className='item'>
                         <h4>Get it Delivered</h4>
                         <div className="row">
-                            <img className="left-col" src={deliveredImage} />
+                            <img alt="Delivered Image" className="left-col" src={deliveredImage} />
                             <p className="right-col">We are partnered with DoorDash, UberEats, SkipTheDishes, and Fantuan. Get your favourite dishes delivered to your doors with the delivery app of your choice. </p>
                         </div>
                     </div>
@@ -60,14 +60,14 @@ const Features = () => {
                     <div className='item'>
                         <h4>Swipe for Food</h4>
                         <div className="row">
-                            <img className="left-col" src={swipeImage} />
+                            <img alt="Swipe Image" className="left-col" src={swipeImage} />
                             <p className="right-col">Discover your current cravings with Fonder. Swipe right to add dishes to your favourite list. Swipe left to move on to the next dish. </p>
                         </div>
                     </div>
                     <div className='item'>
                         <h4>Reserve a Table</h4>
                         <div className="row">
-                            <img className="left-col" src={reserveTableImage} />
+                            <img alt="Reserve Image" className="left-col" src={reserveTableImage} />
                             <p className="right-col">Do you want to visit the restaurant? We are partnered with OpenTable. Make a quick reservation on the same day.
                             </p>
                         </div>
@@ -75,7 +75,7 @@ const Features = () => {
                     <div className='item'>
                         <h4>Get it Delivered</h4>
                         <div className="row">
-                            <img className="left-col" src={deliveredImage} />
+                            <img alt="Delivered Image" className="left-col" src={deliveredImage} />
                             <p className="right-col">We are partnered with DoorDash, UberEats, SkipTheDishes, and Fantuan. Get your favourite dishes delivered to your doors with the delivery app of your choice. </p>
                         </div>
                     </div>
@@ -86,14 +86,14 @@ const Features = () => {
                     <div className='item'>
                         <h4>Swipe for Food</h4>
                         <div className="row">
-                            <img className="left-col" src={swipeImage} />
+                            <img alt="Swipe Image" className="left-col" src={swipeImage} />
                             <p className="right-col">Discover your current cravings with Fonder. Swipe right to add dishes to your favourite list. Swipe left to move on to the next dish. </p>
                         </div>
                     </div>
                     <div className='item'>
                         <h4>Reserve a Table</h4>
                         <div className="row">
-                            <img className="left-col" src={reserveTableImage} />
+                            <img alt="Reserve Image" className="left-col" src={reserveTableImage} />
                             <p className="right-col">Do you want to visit the restaurant? We are partnered with OpenTable. Make a quick reservation on the same day.
                             </p>
                         </div>
@@ -101,7 +101,7 @@ const Features = () => {
                     <div className='item'>
                         <h4>Get it Delivered</h4>
                         <div className="row">
-                            <img className="left-col" src={deliveredImage} />
+                            <img alt="Delivered Image" className="left-col" src={deliveredImage} />
                             <p className="right-col">We are partnered with DoorDash, UberEats, SkipTheDishes, and Fantuan. Get your favourite dishes delivered to your doors with the delivery app of your choice. </p>
                         </div>
                     </div>
@@ -112,14 +112,14 @@ const Features = () => {
                     <div className='item'>
                         <h4>Swipe for Food</h4>
                         <div className="row">
-                            <img className="left-col" src={swipeImage} />
+                            <img alt="Swipe Image" className="left-col" src={swipeImage} />
                             <p className="right-col">Discover your current cravings with Fonder. Swipe right to add dishes to your favourite list. Swipe left to move on to the next dish.  </p>
                         </div>
                     </div>
                     <div className='item'>
                         <h4>Reserve a Table</h4>
                         <div className="row">
-                            <img className="left-col" src={reserveTableImage} />
+                            <img alt="Reserve Image" className="left-col" src={reserveTableImage} />
                             <p className="right-col">Do you want to visit the restaurant? We are partnered with OpenTable. Make a quick reservation on the same day.
                             </p>
                         </div>
@@ -127,7 +127,7 @@ const Features = () => {
                     <div className='item'>
                         <h4>Get it Delivered</h4>
                         <div className="row">
-                            <img className="left-col" src={deliveredImage} />
+                            <img alt="Delivered Image" className="left-col" src={deliveredImage} />
                             <p className="right-col">We are partnered with DoorDash, UberEats, SkipTheDishes, and Fantuan. Get your favourite dishes delivered to your doors with the delivery app of your choice.  </p>
                         </div>
                     </div>
@@ -138,14 +138,14 @@ const Features = () => {
                     <div className='item'>
                         <h4>Swipe for Food</h4>
                         <div className="row">
-                            <img className="left-col" src={swipeImage} />
+                            <img alt="Swipe Image" className="left-col" src={swipeImage} />
                             <p className="right-col">Discover your current cravings with Fonder. Swipe right to add dishes to your favourite list. Swipe left to move on to the next dish.  </p>
                         </div>
                     </div>
                     <div className='item'>
                         <h4>Reserve a Table</h4>
                         <div className="row">
-                            <img className="left-col" src={reserveTableImage} />
+                            <img alt="Reserve Image" className="left-col" src={reserveTableImage} />
                             <p className="right-col">Do you want to visit the restaurant? We are partnered with OpenTable. Make a quick reservation on the same day.
                             </p>
                         </div>
@@ -153,7 +153,7 @@ const Features = () => {
                     <div className='item'>
                         <h4>Get it Delivered</h4>
                         <div className="row">
-                            <img className="left-col" src={deliveredImage} />
+                            <img alt="Delivered Image" className="left-col" src={deliveredImage} />
                             <p className="right-col">We are partnered with DoorDash, UberEats, SkipTheDishes, and Fantuan. Get your favourite dishes delivered to your doors with the delivery app of your choice.  </p>
                         </div>
                     </div>

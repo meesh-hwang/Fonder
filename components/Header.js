@@ -39,7 +39,7 @@ const Header = (active) =>{
             {isXMobile && 
                 <header className={window.location.pathname !== "/" ? "main-header nav-background": "main-header"}>
 
-                <Link onClick={()=>toggleNav(false)} to="/fonder/"><h1><img src={logo} className="main-logo" /></h1></Link>
+                <Link onClick={()=>toggleNav(false)} to="/"><h1><img alt="Fonder Logo" src={logo} className="main-logo" /></h1></Link>
                 <div className={nav ? "nav-toggle open" : "nav-toggle"} onClick={() => !nav ? toggleNav(true) : toggleNav(false)}>
                     <div className="line one"></div>
                     <div className="line two"></div>
@@ -47,14 +47,14 @@ const Header = (active) =>{
                 </div>
                 <nav className={nav ? "gb-nav open" : "gb-nav"}>
                     <ul>
-                        <li><Link className="nav-link" to="/fonder/submission" onClick={()=>toggleNav(false)}>Submission</Link></li>
-                        <li><Link className="nav-link" to="/fonder/support" onClick={()=>toggleNav(false)}>Support/FAQ</Link></li>
+                        <li><Link className="nav-link" to="/submission" onClick={()=>toggleNav(false)}>Submission</Link></li>
+                        <li><Link className="nav-link" to="/support" onClick={()=>toggleNav(false)}>Support/FAQ</Link></li>
                     </ul>
                     <div className='mobileApp'>
                         <h4 className="downloadText">Download the App</h4>
                         <div className='mobileDownloadApp'>
-                            <img src={androidDownload}/>
-                            <img src={appleDownload}/>
+                            <img alt="Android Download " src={androidDownload}/>
+                            <img alt="Apple Download" src={appleDownload}/>
                         </div>
 
                         <a target="_blank"href="https://www.freeprivacypolicy.com/live/d960234f-ec44-414e-9cb4-a2317ce42913">Privacy Policy</a>
@@ -66,7 +66,7 @@ const Header = (active) =>{
             {isMobile &&
                 <header className={window.location.pathname !== "/" ? "main-header mobile nav-background": "main-header mobile"}>
 
-                <Link onClick={()=>toggleNav(false)} to="/fonder/"><h1><img src={logo} className="main-logo mobile" /></h1></Link>
+                <Link onClick={()=>toggleNav(false)} to="/"><h1><img alt="Fonder Logo" src={logo} className="main-logo mobile" /></h1></Link>
                 <div className={nav ? "nav-toggle mobile open" : "nav-toggle mobile"} onClick={() => !nav ? toggleNav(true) : toggleNav(false)}>
                     <div className="line one"></div>
                     <div className="line two"></div>
@@ -74,14 +74,14 @@ const Header = (active) =>{
                 </div>
                 <nav className={nav ? "gb-nav mobile open" : "gb-nav mobile"}>
                     <ul>
-                        <li><Link className="nav-link" to="/fonder/submission" onClick={()=>toggleNav(false)}>Submission</Link></li>
-                        <li><Link className="nav-link" to="/fonder/support" onClick={()=>toggleNav(false)}>Support/FAQ</Link></li>
+                        <li><Link className="nav-link" to="/submission" onClick={()=>toggleNav(false)}>Submission</Link></li>
+                        <li><Link className="nav-link" to="/support" onClick={()=>toggleNav(false)}>Support/FAQ</Link></li>
                     </ul>
                     <div className='mobileApp mobile'>
                         <h4 className="downloadText mobile">Download the App</h4>
                         <div className='mobileDownloadApp mobile'>
-                            <img src={androidDownload}/>
-                            <img src={appleDownload}/>
+                            <img alt="Android Download" src={androidDownload}/>
+                            <img alt="Apple Download" src={appleDownload}/>
                         </div>
 
                         <a target="_blank"href="https://www.freeprivacypolicy.com/live/d960234f-ec44-414e-9cb4-a2317ce42913">Privacy Policy</a>
@@ -93,7 +93,7 @@ const Header = (active) =>{
             {isTablet &&
                 <header className={window.location.pathname !== "/" ? "main-header nav-background tablet": "main-header tablet"}>
 
-                <Link onClick={()=>toggleNav(false)} to="/fonder/"><h1><img src={logo} className="main-logo tablet" /></h1></Link>
+                <Link onClick={()=>toggleNav(false)} to="/"><h1><img alt="Fonder Logo" src={logo} className="main-logo tablet" /></h1></Link>
                 <div className={nav ? "nav-toggle open" : "nav-toggle"} onClick={() => !nav ? toggleNav(true) : toggleNav(false)}>
                     <div className="line one"></div>
                     <div className="line two"></div>
@@ -101,14 +101,14 @@ const Header = (active) =>{
                 </div>
                 <nav className={nav ? "gb-nav open tablet" : "gb-nav tablet"}>
                     <ul>
-                        <li><Link className="nav-link" to="/fonder/submission" onClick={()=>toggleNav(false)}>Submission</Link></li>
-                        <li><Link className="nav-link" to="/fonder/support" onClick={()=>toggleNav(false)}>Support/FAQ</Link></li>
+                        <li><Link className="nav-link" to="/submission" onClick={()=>toggleNav(false)}>Submission</Link></li>
+                        <li><Link className="nav-link" to="/support" onClick={()=>toggleNav(false)}>Support/FAQ</Link></li>
                     </ul>
                     <div className='mobileApp tablet'>
                         <h4 className="downloadText tablet">Download the App</h4>
                         <div className='mobileDownloadApp tablet'>
-                            <img src={androidDownload}/>
-                            <img src={appleDownload}/>
+                            <img alt="Android Download" src={androidDownload}/>
+                            <img alt="Apple Download" src={appleDownload}/>
                         </div>
 
                         <a target="_blank"href="https://www.freeprivacypolicy.com/live/d960234f-ec44-414e-9cb4-a2317ce42913">Privacy Policy</a>
@@ -118,22 +118,22 @@ const Header = (active) =>{
             }
             {isLaptop &&
                 <header className='main-header nav-background laptop'>
-                    <Link to="/fonder/"><h1><img src={logo} className="main-logo laptop" /></h1></Link>
+                    <Link to="/"><h1><img alt="Fonder Logo" src={logo} className="main-logo laptop" /></h1></Link>
                     <nav className='gb-nav laptop'>
                         <ul>
-                            <li><Link className="nav-link laptop" to="/fonder/support" onClick={()=>toggleNav(false)}>Support/FAQ</Link></li>
-                            <li><Link className="nav-link laptop" to="/fonder/submission" onClick={()=>toggleNav(false)}>Submission</Link></li>
+                            <li><Link className={window.location.pathname == "/support" ? "nav-link laptop active" : "nav-link laptop"} to="/support" onClick={()=>toggleNav(false)}>Support/FAQ</Link></li>
+                            <li><Link className={window.location.pathname == "/submission" ? "nav-link laptop active": "nav-link laptop"} to="/submission" onClick={()=>toggleNav(false)}>Submission</Link></li>
                         </ul>
                     </nav>
                 </header>
             }
             {isDesktop &&
                 <header className='main-header nav-background desktop'>
-                    <Link to="/fonder/"><h1><img src={logo} className="main-logo desktop" /></h1></Link>
+                    <Link to="/"><h1><img alt="Fonder Logo" src={logo} className="main-logo desktop" /></h1></Link>
                     <nav className='gb-nav desktop'>
                         <ul>
-                            <li><Link className="nav-link desktop" to="/fonder/support" onClick={()=>toggleNav(false)}>Support/FAQ</Link></li>
-                            <li><Link className="nav-link desktop" to="/fonder/submission" onClick={()=>toggleNav(false)}>Submission</Link></li>
+                            <li><Link className={window.location.pathname == "/support" ? "nav-link desktop active" : "nav-link desktop"} to="/support" onClick={()=>toggleNav(false)}>Support/FAQ</Link></li>
+                            <li><Link className={window.location.pathname == "/submission" ? "nav-link desktop active": "nav-link desktop"} to="/submission" onClick={()=>toggleNav(false)}>Submission</Link></li>
                         </ul>
                     </nav>
                 </header>

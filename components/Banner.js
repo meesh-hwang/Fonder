@@ -37,11 +37,11 @@ const Banner = (active) => {
                         <h2>Can't decide what to eat? Just Swipe.</h2>
                         <p>Have you ever felt frustrated and indecisive when deciding what to eat? Fonder can help with that. We feed your eyes first.</p>
                         <div className='hero-download' >
-                            <a href="#"><img className="android-btn" src={androidDownload} /></a>
-                            <a href="#"><img className='apple-btn' src={appleDownload} /></a>
+                            <a href="#"><img alt="Android Download" className="android-btn" src={androidDownload} /></a>
+                            <a href="#"><img alt="Apple Download" className='apple-btn' src={appleDownload} /></a>
                         </div>
                     </div>
-                    <img className='right-col home-banner-img' src={bannerPeople} />
+                    <img className='right-col home-banner-img' alt="Banner Image" src={bannerPeople} />
                 </section>
             }
             {isMobile &&
@@ -51,11 +51,11 @@ const Banner = (active) => {
                         <h2>Can't decide what to eat? Just Swipe.</h2>
                         <p>Have you ever felt frustrated and indecisive when deciding what to eat? Fonder can help with that. We feed your eyes first.</p>
                         <div className='hero-download' >
-                            <a href="#"><img className="android-btn" src={androidDownload} /></a>
-                            <a href="#"><img className='apple-btn' src={appleDownload} /></a>
+                            <a href="#"><img alt="Android Download" className="android-btn" src={androidDownload} /></a>
+                            <a href="#"><img alt="Apple Download" className='apple-btn' src={appleDownload} /></a>
                         </div>
                     </div>
-                    <img className='right-col home-banner-img' src={bannerPeople} />
+                    <img className='right-col home-banner-img' alt="Banner Image" src={bannerPeople} />
                 </section>
             }
             {isTablet &&
@@ -64,11 +64,11 @@ const Banner = (active) => {
                         <h2>Can't decide what to eat? Just Swipe.</h2>
                         <p>Have you ever felt frustrated and indecisive when deciding what to eat? Fonder can help with that. We feed your eyes first.</p>
                         <div className='hero-download' >
-                            <a href="#"><img className="android-btn" src={androidDownload} /></a>
-                            <a href="#"><img className='apple-btn' src={appleDownload} /></a>
+                            <a href="#"><img alt="Android Download" className="android-btn" src={androidDownload} /></a>
+                            <a href="#"><img alt="Apple Download" className='apple-btn' src={appleDownload} /></a>
                         </div>
                     </div>
-                    <img className='right-col home-banner-img' src={bannerPeople} />
+                    <img className='right-col home-banner-img' alt="Banner Image" src={bannerPeople} />
                 </section>
             }
             {isLaptop &&
@@ -77,12 +77,12 @@ const Banner = (active) => {
                         <h2>Can't decide what to eat? Just Swipe.</h2>
                         <p>Have you ever felt frustrated and indecisive when deciding what to eat? Fonder can help with that. This Tinder-like food app will feed your eyes first with images of different dishes and from there show the different restaurants that have it. Make a quick reservation with OpenTable or have it delivered to you.  </p>
                         <div className='hero-download' >
-                            <a href="#"><img className="android-btn" src={androidDownload} /></a>
-                            <a href="#"><img className='apple-btn' src={appleDownload} /></a>
+                            <a href="#"><img alt="Android Download" className="android-btn" src={androidDownload} /></a>
+                            <a href="#"><img alt="Apple Download" className='apple-btn' src={appleDownload} /></a>
                         </div>
                     </div>
                     <div className='right-col '>
-                        <img className='home-banner-img' src={bannerPeople} />
+                        <img alt="Fonder Image" className='home-banner-img' src={bannerPeople} />
                     </div>
                 </section>
             }
@@ -93,12 +93,12 @@ const Banner = (active) => {
                         <h2>Can't decide what to eat? Just Swipe.</h2>
                         <p>Have you ever felt frustrated and indecisive when deciding what to eat? Fonder can help with that. This Tinder-like food app will feed your eyes first with images of different dishes and from there show the different restaurants that have it. Make a quick reservation with OpenTable or have it delivered to you.  </p>
                         <div className='hero-download' >
-                            <a href="#"><img className="android-btn" src={androidDownload} /></a>
-                            <a href="#"><img className='apple-btn' src={appleDownload} /></a>
+                            <a href="#"><img alt="Android Download" className="android-btn" src={androidDownload} /></a>
+                            <a href="#"><img alt="Apple Download" className='apple-btn' src={appleDownload} /></a>
                         </div>
                     </div>
                     <div className='right-col '>
-                        <img className='home-banner-img' src={bannerPeople} />
+                        <img className='home-banner-img' alt="Banner Image" src={bannerPeople} />
                     </div>
                 </section>
             }

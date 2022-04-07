@@ -28,28 +28,28 @@ const SubmissionBanner = () =>{
         <div style={{flexBasis:'50%'}}>
         {isXMobile &&
             <section className='submission-banner'>
-                <img src={banner} alt="" />
+                <img src={banner} alt="Banner" />
             </section>
         }
         {isMobile &&
             <section className='submission-banner mobile'>
                
-                <img src={banner} alt="" />
+                <img src={banner} alt="Banner" />
             </section>
         }
         {isTablet &&
             <section className='submission-banner tablet'>
-                <img src={banner} alt="" />
+                <img src={banner} alt="Banner" />
             </section>
         }
         {isLaptop &&
             <section className='submission-banner laptop'>
-                <img src={banner} alt="" />
+                <img src={banner} alt="Banner" />
             </section>
         }
         {isDesktop &&
             <section className='submission-banner desktop'>
-                <img src={banner} alt="" />
+                <img src={banner} alt="Banner" />
             </section>
         }
         </div>
