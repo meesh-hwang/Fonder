@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 import logo from '../assets/img/fonder-logo.svg';
 import androidDownload from '../assets/img/android-download.svg';
 import appleDownload from '../assets/img/apple-download.svg';
@@ -32,6 +32,7 @@ const Header = (active) =>{
 
 
     const [nav, toggleNav] = useState(false);
+    
 
     return(
         <div style={{maxWidth:'100vw'}}>
@@ -74,8 +75,23 @@ const Header = (active) =>{
                 </div>
                 <nav className={nav ? "gb-nav mobile open" : "gb-nav mobile"}>
                     <ul>
-                        <li><Link className="nav-link" to="/submission" onClick={()=>toggleNav(false)}>Submission</Link></li>
-                        <li><Link className="nav-link" to="/support" onClick={()=>toggleNav(false)}>Support/FAQ</Link></li>
+                        <li>
+                            <NavLink 
+                                className="nav-link" 
+                                to="/submission" 
+                                exact
+                                onClick={()=>toggleNav(false)}>
+                                Submission
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink 
+                                className="nav-link" 
+                                to="/support" 
+                                exact
+                                onClick={()=>toggleNav(false)}>
+                                Support/FAQ
+                            </NavLink></li>
                     </ul>
                     <div className='mobileApp mobile'>
                         <h4 className="downloadText mobile">Download the App</h4>
@@ -101,8 +117,26 @@ const Header = (active) =>{
                 </div>
                 <nav className={nav ? "gb-nav open tablet" : "gb-nav tablet"}>
                     <ul>
-                        <li><Link className="nav-link" to="/submission" onClick={()=>toggleNav(false)}>Submission</Link></li>
-                        <li><Link className="nav-link" to="/support" onClick={()=>toggleNav(false)}>Support/FAQ</Link></li>
+                        <li>
+                            <NavLink 
+                                className="nav-link" 
+                                activeClassName="nav-link active"
+                                exact
+                                to="/submission" 
+                                onClick={()=>toggleNav(false)}>
+                                Submission
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink 
+                                className="nav-link"
+                                activeClassName="nav-link active" 
+                                exact
+                                to="/support" 
+                                onClick={()=>toggleNav(false)}>
+                                    Support/FAQ
+                            </NavLink>
+                        </li>
                     </ul>
                     <div className='mobileApp tablet'>
                         <h4 className="downloadText tablet">Download the App</h4>
@@ -121,8 +155,26 @@ const Header = (active) =>{
                     <Link to="/"><h1><img alt="Fonder Logo" src={logo} className="main-logo laptop" /></h1></Link>
                     <nav className='gb-nav laptop'>
                         <ul>
-                            <li><Link className={window.location.pathname == "/support" ? "nav-link laptop active" : "nav-link laptop"} to="/support" onClick={()=>toggleNav(false)}>Support/FAQ</Link></li>
-                            <li><Link className={window.location.pathname == "/submission" ? "nav-link laptop active": "nav-link laptop"} to="/submission" onClick={()=>toggleNav(false)}>Submission</Link></li>
+                            <li>
+                                <NavLink 
+                                    className="nav-link laptop"
+                                    activeClassName="nav-link laptop active"
+                                    exact
+                                    to="/support"
+                                    onClick={()=>toggleNav(false)}>
+                                        Support/FAQ
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink 
+                                    className="nav-link laptop"
+                                    activeClassName="nav-link laptop active"
+                                    exact
+                                    to="/submission" 
+                                    onClick={()=>toggleNav(false)}>
+                                        Submission
+                                </NavLink>
+                            </li>
                         </ul>
                     </nav>
                 </header>
@@ -132,8 +184,25 @@ const Header = (active) =>{
                     <Link to="/"><h1><img alt="Fonder Logo" src={logo} className="main-logo desktop" /></h1></Link>
                     <nav className='gb-nav desktop'>
                         <ul>
-                            <li><Link className={window.location.pathname == "/support" ? "nav-link desktop active" : "nav-link desktop"} to="/support" onClick={()=>toggleNav(false)}>Support/FAQ</Link></li>
-                            <li><Link className={window.location.pathname == "/submission" ? "nav-link desktop active": "nav-link desktop"} to="/submission" onClick={()=>toggleNav(false)}>Submission</Link></li>
+                            <li>
+                                <NavLink 
+                                    className="nav-link desktop" 
+                                    activeClassName="nav-link desktop active" 
+                                    exact 
+                                    to="/support" 
+                                    onClick={()=>toggleNav(false)}>
+                                    Support/FAQ
+                                </NavLink></li>
+                            <li>
+                                <NavLink 
+                                    className="nav-link desktop" 
+                                    activeClassName="nav-link desktop active" 
+                                    exact 
+                                    to="/submission" 
+                                    onClick={()=>toggleNav(false)}>
+                                    Submission
+                                </NavLink>
+                            </li>
                         </ul>
                     </nav>
                 </header>
