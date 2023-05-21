@@ -19,7 +19,7 @@ const App = () => {
                 <title>Fonder</title>
         </Helmet>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/fonder" element={<Home />} />
           <Route path="/support" element={<Support />} />
           <Route path="/submission" element={<Submission/>} />
         </Routes>
